@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "electron .",
     "build": "electron-builder build --win --publish never",
-    "deploy": "electron-builder build --win --publish always"
+    "deploy": "GH_TOKEN=824d66e10a4068b1b4508811b4f2c221e42e6419 electron-builder build --win --publish always"
   },
   "repository": {
     "type": "git",
@@ -25,8 +25,7 @@
     },
     "publish": [
       {
-        "provider": "github",
-        "token": "824d66e10a4068b1b4508811b4f2c221e42e6419"
+        "provider": "github"
       }
     ]
   },
