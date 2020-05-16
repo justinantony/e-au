@@ -1,6 +1,6 @@
 {
   "name": "e-au",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "electron auto updater",
   "main": "main.js",
   "scripts": {
