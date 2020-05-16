@@ -1,0 +1,4 @@
+appId: au.e
+publish:
+  provider: github
+  token: 6a971a5694ea69daa830b824541ad80777e32a6a
