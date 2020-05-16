@@ -14,7 +14,7 @@
     "url": "https://github.com/justinantony/e-au.git"
   },
   "build": {
-    "appId": "com. Example.ExampleApp",
+    "appId": "au.e",
     "mac": {
       "target": "dmg",
       "icon": "icons/logo.png"
@@ -22,7 +22,15 @@
     "win": {
       "target": "nsis",
       "icon": "icons/logo.ico"
-    }
+    },
+    "publish": [
+      {
+        "provider": "github",
+        "owner": "e-au",
+        "repo": "e-au",
+        "token": "6a971a5694ea69daa830b824541ad80777e32a6a"
+      }
+    ]
   },
   "keywords": [
     "electron",
