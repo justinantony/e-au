@@ -1,6 +1,6 @@
 {
   "name": "e-au",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "electron auto updater",
   "main": "main.js",
   "scripts": {
@@ -28,6 +28,7 @@
     "electron-builder": "^22.6.0"
   },
   "dependencies": {
-    "electron-updater": "^4.3.1"
+    "electron-updater": "^4.3.1",
+    "update-electron-app": "^1.5.0"
   }
 }
