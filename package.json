@@ -13,6 +13,17 @@
     "type": "git",
     "url": "https://github.com/justinantony/e-au.git"
   },
+  "build": {
+    "appId": "com. Example.ExampleApp",
+    "mac": {
+      "target": "dmg",
+      "icon": "icons/icon.png"
+    },
+    "win": {
+      "target": "nsis",
+      "icon": "icons/icon.ico"
+    }
+  },
   "keywords": [
     "electron",
     "auto-updater"

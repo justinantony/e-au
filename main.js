@@ -22,7 +22,7 @@ function createWindow() {
     console.log('Checking for updates', update);
     mainWindow.show();
   });
-  mainWindow.webContents.openDevTools();
+  // mainWindow.webContents.openDevTools();
 }
 
 app.on('ready', () => {
