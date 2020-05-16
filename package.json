@@ -1,13 +1,13 @@
 {
   "name": "e-au",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "electron auto updater",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "electron .",
     "build": "electron-builder build --win --publish never",
-    "deploy": "electron-builder GH_TOKEN=824d66e10a4068b1b4508811b4f2c221e42e6419 build --win --publish always"
+    "deploy": "electron-builder build --win --publish always"
   },
   "repository": {
     "type": "git",
